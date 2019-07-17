@@ -78,7 +78,9 @@ if __name__ == '__main__':
     	# Train from scratch or load the pretrained network
     	#
         # TODO: Load the pretrained model
-
+        if args.load:
+            pass
+            
     	# Initialize the program
 	    writer = SummaryWriter()
 	    use_cuda = torch.cuda.is_available()

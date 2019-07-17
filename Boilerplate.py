@@ -74,14 +74,14 @@ if __name__ == '__main__':
         # TODO: Run the inference
         pass
     else
-    	#
-    	# Train from scratch or load the pretrained network
-    	#
+        #
+        # Train from scratch or load the pretrained network
+        #
         # TODO: Load the pretrained model
         if args.load:
             pass
             
-    	# Initialize the program
-	    writer = SummaryWriter()
-	    use_cuda = torch.cuda.is_available()
-	    step = 0
+        # Initialize the program
+        writer = SummaryWriter()
+        use_cuda = torch.cuda.is_available()
+        step = 0
